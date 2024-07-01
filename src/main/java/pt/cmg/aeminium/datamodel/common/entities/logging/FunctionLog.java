@@ -2,7 +2,7 @@
  * Copyright (c) 2024 Carlos Gonçalves (https://www.linkedin.com/in/carlosmogoncalves/)
  * Likely open-source, so copy at will, bugs will be yours as well.
  */
-package pt.cmg.aeminium.knowledge.persistence.entities.logging;
+package pt.cmg.aeminium.datamodel.common.entities.logging;
 
 import java.io.PrintWriter;
 import java.io.Serializable;

@@ -3,7 +3,7 @@
  * Carlos Gonçalves (https://www.linkedin.com/in/carlosmogoncalves/)
  * All rights reserved.
  */
-package pt.cmg.aeminium.knowledge.persistence.entities.localisation;
+package pt.cmg.aeminium.datamodel.common.entities.localisation;
 
 import java.util.HashMap;
 import java.util.Locale;

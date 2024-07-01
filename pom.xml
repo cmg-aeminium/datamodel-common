@@ -115,6 +115,13 @@
             <version>${jakarta.jakartaee-api-version}</version>
             <scope>provided</scope>
         </dependency>
+        
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>org.eclipse.persistence.core</artifactId>
+            <version>4.0.1.payara-p2</version>
+            <scope>provided</scope>
+        </dependency>
 
         <!-- 3rd party dependencies-->
         <dependency>
