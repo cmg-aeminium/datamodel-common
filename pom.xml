@@ -92,6 +92,9 @@
         <jakarta.jakartaee-api-version>10.0.0</jakarta.jakartaee-api-version>
         <jboss-weld-version>3.1.8.Final</jboss-weld-version>
         <owasp-encoder-version>1.2.3</owasp-encoder-version>
+        
+         <!-- First party dependencies -->
+        <aem-jakarta-utils-version>3.0.0</aem-jakarta-utils-version>
 
     </properties>
 
@@ -122,6 +125,19 @@
             <version>4.0.1.payara-p2</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jboss.weld</groupId>
+            <artifactId>weld-osgi-bundle</artifactId>
+            <version>5.0.1.Final</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>pt.cmg</groupId>
+            <artifactId>jakartautils</artifactId>
+            <version>${aem-jakarta-utils-version}</version>
+        </dependency>
+
 
         <!-- 3rd party dependencies-->
         <dependency>
