@@ -90,6 +90,7 @@
         <coobird-thumbnailator-version>0.4.17</coobird-thumbnailator-version>
         <drewnoakes-metadataextractor-version>2.18.0</drewnoakes-metadataextractor-version>
         <jakarta.jakartaee-api-version>10.0.0</jakarta.jakartaee-api-version>
+        <microprofile-version>3.1</microprofile-version>
         <jboss-weld-version>3.1.8.Final</jboss-weld-version>
         <owasp-encoder-version>1.2.3</owasp-encoder-version>
         
@@ -118,10 +119,21 @@
             <version>${jakarta.jakartaee-api-version}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.microprofile.config</groupId>
+            <artifactId>microprofile-config-api</artifactId>
+            <version>${microprofile-version}</version>
+        </dependency>
         
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.core</artifactId>
+            <version>4.0.1.payara-p2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>org.eclipse.persistence.jpa</artifactId>
             <version>4.0.1.payara-p2</version>
             <scope>provided</scope>
         </dependency>
@@ -131,6 +143,13 @@
             <version>5.0.1.Final</version>
             <scope>provided</scope>
         </dependency>
+         <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast</artifactId>
+            <version>5.3.6</version>
+            <scope>provided</scope>
+        </dependency>
+        
         
         <dependency>
             <groupId>pt.cmg</groupId>
