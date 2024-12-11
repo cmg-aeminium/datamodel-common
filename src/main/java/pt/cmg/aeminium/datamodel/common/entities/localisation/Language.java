@@ -31,6 +31,10 @@ public enum Language {
         return name;
     }
 
+    public boolean isDefaultLanguage() {
+        return this == DEFAULT_LANGUAGE;
+    }
+
     /**
      * Note that Jersey uses this method to instantiate enums from String QueryParams automatically, so do not delete it
      */
